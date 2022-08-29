@@ -3,15 +3,15 @@
 
 ## Einleitung
 
-✍️ Im Modul 133 lernt man das JSF kennen. In diesem Auftrag ging es darum, eine Applikation zu erstellen, sodass ein Nutzer ein Avatar basierend auf die PokemonGo Models konfigurieren kann.
+✍️ Im Modul 133 lernt man das JSF kennen. In diesem Auftrag ging es darum, eine Applikation zu erstellen, mit der ein Nutzer ein Avatar basierend auf die PokemonGo Models konfigurieren kann.
 
 ## Was habe ich gelernt?
 
-✍️ Ich habe den "<f:setPropertyApplicationListener />"-Xhtml-Tag genauer kennengelernt. Dieser setzt voraus, in einem "Action-Parent" als Kind hinzugefügt zu werden. Sobald das Elternelement ausgelöst wird, setzt der PropertyApplicationListener die gewünschten Daten in die Bean-Attribute.
+✍️ Ich habe den "<f:setPropertyApplicationListener />"-Xhtml-Tag genauer kennengelernt. Dieser setzt voraus, dass er in einem "Action-Parent" als Kind hinzugefügt wird. Sobald das Elternelement ausgelöst wird, setzt der PropertyApplicationListener die gewünschten Daten in die Bean-Attribute.
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+✍
 
 ```html
 <h:commandLink action="augen.xhtml">
@@ -38,4 +38,4 @@ Auf dem zweiten Screenshot wird nochmals bestätigt, ob die Eingabe richtig gesp
 
 👎 Die Entwicklungsumgebung "IntelliJ" macht bei JSF-Projekten nicht gut mit. Anfangs wurde die Bean nicht erwartungsgemäss instanziiert.
 
-**VBV**: ✍️ Mit neuen Entwicklungsumgebungen zu arbeiten ist schön und gut, allerdings sollte als Backup-Plan Netbeans installiert werden, um bei Problemsituationen nicht zu viel Zeit zu verlieren.
+✍️ Mit neuen Entwicklungsumgebungen zu arbeiten ist schön und gut, allerdings sollte als Backup-Plan Netbeans installiert werden, um bei Problemsituationen nicht zu viel Zeit zu verlieren.
