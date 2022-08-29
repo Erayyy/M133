@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-✍
+✍ Codeabschnitte:
 
 ```html
 <h:commandLink action="augen.xhtml">
@@ -24,6 +24,8 @@
 
 <h:outputLabel value="#{pokemonBean.haut} wurde als Wert gesetzt."> </h:outputLabel>
 ```
+🖥 Screenshots:
+
 ![lernbericht](https://user-images.githubusercontent.com/26624740/187164785-ba0a43a1-df69-41db-b97d-c864733dcadf.PNG)
 ![lernbericht2](https://user-images.githubusercontent.com/26624740/187164817-bf4381ca-c312-42c5-9085-f34b2f68b4ba.PNG)
 
