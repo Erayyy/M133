@@ -1,31 +1,41 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+✍️ Lernbericht, von mir, Eray Çimen.
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+✍️ Im Modul 133 lernt man das JSF kennen. In diesem Auftrag ging es darum, eine Applikation zu erstellen, sodass ein Nutzer ein Avatar basierend auf die PokemonGo Models konfigurieren kann.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+✍️ Ich habe den "<f:setPropertyApplicationListener />"-Xhtml-Tag genauer kennengelernt. Dieser setzt voraus, in einem "Action-Parent" als Kind hinzugefügt zu werden. Sobald das Elternelement ausgelöst wird, setzt der PropertyApplicationListener die gewünschten Daten in die Bean-Attribute.
 
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+```html
+<h:commandLink action="augen.xhtml">
+        <f:setPropertyActionListener target="#{pokemonBean.haut}" value="h" />
+        <h:graphicImage value="/resources/pokemon/h.png">
+        </h:graphicImage>
+</h:commandLink>
+
+<!-- Nächste Seite -->
+
+<h:outputLabel value="#{pokemonBean.haut} wurde als Wert gesetzt."> </h:outputLabel>
+```
+![lernbericht](https://user-images.githubusercontent.com/26624740/187164785-ba0a43a1-df69-41db-b97d-c864733dcadf.PNG)
+![lernbericht2](https://user-images.githubusercontent.com/26624740/187164817-bf4381ca-c312-42c5-9085-f34b2f68b4ba.PNG)
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Der Codeabschnitt zeigt auf, dass beim Klicken des rechten Bildes (gem. Screenshot) der Wert "h" in der pokemonBean abgespeichert wird.
+Auf dem zweiten Screenshot wird nochmals bestätigt, ob die Eingabe richtig gespeichert wurde. Wie auf dem Codeabschnitt, zeigt der Text den Buchstaben "h" für hell an.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Durch verfügbare Dokumentationen im Internet, waren die gesetzten Ziele immer sehr schnell realisierbar.
 
-👎 und etwas, was nicht gut lief.
+👎 Die Entwicklungsumgebung "IntelliJ" macht bei JSF-Projekten nicht gut mit. Anfangs wurde die Bean nicht erwartungsgemäss instanziiert.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: ✍️ Mit neuen Entwicklungsumgebungen zu arbeiten ist schön und gut, allerdings sollte als Backup-Plan Netbeans installiert werden, um bei Problemsituationen nicht zu viel Zeit zu verlieren.
