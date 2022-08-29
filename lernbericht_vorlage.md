@@ -34,8 +34,8 @@ Auf dem zweiten Screenshot wird nochmals bestätigt, ob die Eingabe richtig gesp
 
 # Reflektion zum Arbeitsprozess
 
-👍 Durch verfügbare Dokumentationen im Internet, waren die gesetzten Ziele immer sehr schnell realisierbar.
+👍 Durch verfügbare Dokumentationen im Internet, war das gesetze Ziel schnell nachvollziehbar. In der Theorie auch realisierbar.
 
-👎 Die Entwicklungsumgebung "IntelliJ" macht bei JSF-Projekten nicht gut mit. Anfangs wurde die Bean nicht erwartungsgemäss instanziiert.
+👎 Die Entwicklungsumgebung "IntelliJ" macht bei JSF-Projekten nicht gut mit. Anfangs wurde die Bean nicht erwartungsgemäss instanziiert, was in der Planung zu viel Zeit kostete.
 
 ✍️ Mit neuen Entwicklungsumgebungen zu arbeiten ist schön und gut, allerdings sollte als Backup-Plan Netbeans installiert werden, um bei Problemsituationen nicht zu viel Zeit zu verlieren.
